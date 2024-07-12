@@ -1,0 +1,52 @@
+feature {
+  name: "Acidity"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Acidity_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Crunchiness"
+  type: FLOAT
+}
+feature {
+  name: "Juiciness"
+  type: FLOAT
+}
+feature {
+  name: "Quality"
+  type: BYTES
+}
+feature {
+  name: "Ripeness"
+  type: FLOAT
+}
+feature {
+  name: "Size"
+  type: FLOAT
+}
+feature {
+  name: "Sweetness"
+  type: FLOAT
+}
+feature {
+  name: "Weight"
+  type: FLOAT
+}

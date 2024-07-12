@@ -1,0 +1,40 @@
+feature {
+  name: "Acidity_xf"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Crunchiness_xf"
+  type: FLOAT
+}
+feature {
+  name: "Juiciness_xf"
+  type: FLOAT
+}
+feature {
+  name: "Quality_xf"
+  type: BYTES
+}
+feature {
+  name: "Ripeness_xf"
+  type: FLOAT
+}
+feature {
+  name: "Size_xf"
+  type: FLOAT
+}
+feature {
+  name: "Sweetness_xf"
+  type: FLOAT
+}
+feature {
+  name: "Weight_xf"
+  type: FLOAT
+}
